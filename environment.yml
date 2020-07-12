@@ -1,0 +1,17 @@
+name: for-rent-ner
+# I prefer conda-forge packages for my projects
+channels:
+- conda-forge
+- defaults
+# Start with Python and include everything you need
+dependencies:
+- python=3.7
+- pip
+- numpy
+- jupyter
+- jsonlines
+- tqdm
+- pip:
+    - eml-parser
+    - filemagic
+
